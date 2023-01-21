@@ -18,13 +18,24 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by: M Srinath
+RegisterNumber:  22000990
+
+def square():
+    a=int(input())
+    b=float(a)
+    for i in range(100):
+        a=0.5*(a+b/a)
+    print("Square root of the number:",a)
+square()
+    
+
 */
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![2023-01-21 (2)](https://user-images.githubusercontent.com/118678482/213862955-7e34e257-64dd-4bd8-bf08-f83fcdc6b4d8.png)
+
 
 
 ## Result:
